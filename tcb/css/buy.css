@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 32px;
+	line-height: 32px;
+	font-size: 11px;
+	color:#666666;
+	background: #f7f7f7;
+	border-bottom: 1px solid #c7c7c7;
+}
+header a{
+	color:#666666;
+}
+header a:hover{
+	text-decoration: underline;
+}
+nav{
+	width: 75%;
+}
+header .nav{
+	width: 40%;
+	float:right;
+	display: flex;
+	justify-content: space-between;
+}
+.wrap{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-bottom: 4px solid #008000;
+}
+.head{
+	width: 75%;
+	height:97px;
+}
+.head h1{
+	float: left;
+}
+.head span{
+	float: right;
+	margin-right: 100px;
+	font-size: 38px;
+	color:#008000;
+	margin-top: 25px;
+}
+.head b{
+	font-size: 43px;
+	font-weight: bold;
+}
+/*wrap*/
+.main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 10px;
+}
+.deta,.aa{
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+}
+.deta span{
+	display: inline-block;
+	width: 24%;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	background: #ccc;
+	border-radius: 10px;
+}
+.aa a{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	font-size: 13px;
+	height:30px;
+	line-height: 30px;
+}
+.subm{
+	width: 75%;
+	margin-top: 50px;
+	background: #f7f7f7;
+}
+h4{
+	font-size: 14px;
+	background: #fff;
+}
+.meg{
+	width: 100%;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap ;	background: #f7f7f7;
+}
+.meg p{
+
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	text-align: center;
+	align-items: center;
+}
+.meg p span a{
+	color:blue;
+}
+.meg p span{
+	display: inline-block;
+	border-bottom: 3px solid #20B2AA;
+}
+.meg p span:nth-child(1){
+	width: 29%;
+}
+.meg p span:nth-child(2){
+	display: inline-block;
+	width: 10%;
+}
+.meg p span:nth-child(3){
+	display: inline-block;
+	width: 10%;
+}
+.meg p span:nth-child(4){
+	display: inline-block;
+	width: 29%;
+}
+.meg p span:nth-child(5){
+	display: inline-block;
+	width: 10%;
+}
+.meg_de{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	height: 100px;
+	align-items: center;
+	border-bottom: 1px dashed #ccc;
+	background: #fff;
+}
+.meg_de .img1{
+	width: 72px;
+	height:72px;
+}
+.meg_l{
+	width: 29%;
+	display: flex;
+	justify-content: flex-start;
+} 
+.iphone{
+	width: 70%;
+}
+.iphone p{
+	width: 100%;
+	color:blue;
+	background: #fff;
+	font-size: 14px;
+}
+.iphone p:nth-child(2){
+	display: flex;
+	justify-content: flex-start;
+}
+.price{
+	width: 10%;
+}
+.price p{
+	height:20px;
+	background: #fff;
+	line-height: 20px;
+	font-size: 13px;
+}
+.price p a{
+	text-decoration: line-through;
+}
+.num{
+	width: 10%;
+}
+.meg_sev{
+	width: 29%;
+	text-align: center;
+	font-size: 13px;
+}
+.meg_sev p a{
+	color:blue;
+}
+.zprice{
+	border: 1px solid;
+	width: 10%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.zprice p:nth-child(1){
+	color:red;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 25px;
+}
+.zprice p:nth-child(2){
+	width: 80%;
+	padding-left: 5px;
+	border:1px solid red;
+	background: #FF9999;
+	color:red;
+	text-align: center;
+	font-size: 12px;
+	height:15px;
+}
+.other{
+	width: 100%;
+	font-size: 13px;
+}
+.other p span{
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	margin-right: 15px;
+}
+input[type="text"]{
+	width: 45%;
+	height:30px;
+}
+.other p span a{
+	color:red;
+}
+.other p{
+	width: 100%;
+	margin-top: 20px;
+}
+.other p .cho{
+	display: inline-block;
+	border:1px solid green;
+	width: 20%;
+	height:50px;
+	vertical-align: top;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+input[type="radio"]{
+	margin-left: 15px;
+}
+.other p button{
+	width: 100px;
+	height:30px;
+	background: orange;
+	border:none;
+	color:#fff;
+	font-size: 18px;
+	margin-right: 30px;
+}
+.other p:nth-child(5){
+	color:red;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+.footer{
+	height:295px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #f7f7f7;
+}
+.foot_1{
+	height: 160px;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #ccc;
+}
+.foot_1 ul{
+	margin-top: 20px;
+	float: left;
+}
+.foot_1 ul li{
+	height:28px;
+	line-height: 28px;
+	font-size: 12px;
+	color:#888;
+}
+.foot_1 ul li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.fbuy img{
+	float: left;
+	margin-top:10px ;
+}
+.foot_2 p{
+	line-height: 25px;
+	font-size: 13px;
+	color:#888888;
+}
